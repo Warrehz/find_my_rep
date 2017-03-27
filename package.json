@@ -1,0 +1,24 @@
+{
+  "name": "find_my_rep",
+  "version": "1.0.0",
+  "description": "to help others find their state rep and information pertaining to them",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Warrehz/find_my_rep.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Warrehz/find_my_rep/issues"
+  },
+  "homepage": "https://github.com/Warrehz/find_my_rep#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "handlebars": "^4.0.6",
+    "spectre.css": "^0.2.10"
+  }
+}
