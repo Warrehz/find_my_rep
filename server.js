@@ -29,9 +29,7 @@ app.use(bodyParser.urlencoded({
 app.use(express.static(path.join(__dirname, 'public')));
 
 // controllers to driect what to servce based on route
-app.use('/', function() {
-  console.log("Worked");
-});
+app.use('/', app_controller)
 
 // set port to whatever environment it's in or to 3000
 let port = process.env.PORT || 3000;
@@ -39,4 +37,7 @@ let port = process.env.PORT || 3000;
 // listen in on port 3000
 app.listen(port, function() {
   console.log("Listening in on port %s", port);
-})
+});
+
+// module exported as app
+module.exports = app;
