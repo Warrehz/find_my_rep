@@ -1,0 +1,14 @@
+.icon {
+  width: 3rem;
+  height: 3rem;
+}
+
+.navbar {
+  background-color: #FFFFFF;
+  margin-bottom: 0px;
+  border: none;
+}
+
+.navbar-default .navbar-brand {
+  color: #BF0A30;
+}

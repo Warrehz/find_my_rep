@@ -18,7 +18,6 @@
   "homepage": "https://github.com/Warrehz/find_my_rep#readme",
   "dependencies": {
     "body-parser": "^1.17.1",
-    "handlebars": "^4.0.6",
-    "spectre.css": "^0.2.10"
+    "handlebars": "^4.0.6"
   }
 }
